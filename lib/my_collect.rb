@@ -1,5 +1,9 @@
 def collect(collection)
-  new_collection=[]
-  i= 0 
-  while
+   i= 0 
+   new_collection=[]
+  while 
+  yield collection
+  end
+new_collection
+end
 
